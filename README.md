@@ -24,7 +24,7 @@ Si conoces poco Python, abre primero **`quickstart_structures_logic.ipynb`**: li
 
 Luego continúa con **`workshop_hands_on.ipynb`** (iteraciones, funciones y hands-on del mástil).
 
-**Opcional (~15 min):** [`funciones_y_diseno.ipynb`](funciones_y_diseno.ipynb) — repaso de funciones y principio SRP/OCP con el código del taller.
+**Opcional (~15 min):** [`functions_and_design.ipynb`](functions_and_design.ipynb) — repaso de funciones y principio SRP/OCP con el código del taller.
 
 ### Opción 1 — JupyterLab (recomendado)
 
@@ -65,7 +65,7 @@ uv run python tu_script.py
 ```
 ├── quickstart_structures_logic.ipynb   # Módulo 1: listas y diccionarios
 ├── workshop_hands_on.ipynb             # Módulos 2–4: mástil, bucles, funciones
-├── funciones_y_diseno.ipynb            # Bonus opcional: funciones y SRP/OCP
+├── functions_and_design.ipynb          # Opcional: funciones y SRP/OCP
 ├── src/
 │   ├── generate_fretboard.py           # Generador del diagrama EADGBE
 │   └── image.png                       # Imagen de referencia del mástil
