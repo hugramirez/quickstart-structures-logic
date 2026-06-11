@@ -1,0 +1,18 @@
+[project]
+name = "quickstart-structures-logic-py"
+version = "0.1.0"
+description = "Workshop de estructuras de datos y lógica en Python con el mástil de guitarra EADGBE"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.10.9",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.8",
+]
+
+[tool.uv]
+default-groups = ["dev"]
