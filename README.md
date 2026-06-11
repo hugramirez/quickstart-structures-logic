@@ -16,7 +16,15 @@ cd quickstart-structures-logic
 uv sync
 ```
 
-## Usar el notebook
+## Usar los notebooks
+
+### Empezar aquí (Módulo 1 — ~45 min)
+
+Si conoces poco Python, abre primero **`quickstart_structures_logic.ipynb`**: listas y diccionarios explicados paso a paso con acordes.
+
+Luego continúa con **`workshop_hands_on.ipynb`** (iteraciones, funciones y hands-on del mástil).
+
+**Opcional (~15 min):** [`funciones_y_diseno.ipynb`](funciones_y_diseno.ipynb) — repaso de funciones y principio SRP/OCP con el código del taller.
 
 ### Opción 1 — JupyterLab (recomendado)
 
@@ -24,13 +32,13 @@ uv sync
 uv run jupyter lab
 ```
 
-Abre `quickstart_structures_logic.ipynb` en el navegador y ejecuta las celdas.
+Abre los notebooks en el navegador y ejecuta las celdas en orden.
 
 ### Opción 2 — Cursor / VS Code
 
 1. Ejecuta `uv sync` para crear el entorno `.venv`.
 2. Selecciona el intérprete `.venv/bin/python` como kernel del notebook.
-3. Abre `quickstart_structures_logic.ipynb` y ejecuta las celdas.
+3. Abre `quickstart_structures_logic.ipynb` o `workshop_hands_on.ipynb` y ejecuta las celdas.
 
 ### Opción 3 — Google Colab
 
@@ -55,7 +63,9 @@ uv run python tu_script.py
 ## Estructura
 
 ```
-├── quickstart_structures_logic.ipynb   # Notebook principal
+├── quickstart_structures_logic.ipynb   # Módulo 1: listas y diccionarios
+├── workshop_hands_on.ipynb             # Módulos 2–4: mástil, bucles, funciones
+├── funciones_y_diseno.ipynb            # Bonus opcional: funciones y SRP/OCP
 ├── src/
 │   ├── generate_fretboard.py           # Generador del diagrama EADGBE
 │   └── image.png                       # Imagen de referencia del mástil
